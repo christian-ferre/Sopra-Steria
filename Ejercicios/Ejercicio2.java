@@ -53,7 +53,7 @@ public class Ejercicio2 {
 
             // Validación del input edad
             while (personas[i].edad < 0 ) {
-                System.out.print("Error. Por favor, introduzca un valor valido: ");
+                System.out.print("Error. Por favor, introduzca un valor válido: ");
                 personas[i].edad = input.nextInt();
             }   
 
