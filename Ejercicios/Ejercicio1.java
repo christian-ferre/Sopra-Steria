@@ -12,12 +12,6 @@ public class Ejercicio1 {
 
         int number = leerNumero(input);
        
-        // Validación del input
-        while (number< 0 ) {
-            System.out.print("Error. Por favor, introduzca un valor valido: ");
-            number = input.nextInt();
-        }   
-
         //Comprobación si es par o impar
         if (number % 2 == 0) {
             System.out.println("El número introducido es par.");
